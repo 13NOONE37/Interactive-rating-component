@@ -4,7 +4,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![](./assets/images/screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
