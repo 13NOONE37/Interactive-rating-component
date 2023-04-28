@@ -137,7 +137,7 @@ body {
   grid-gap: 1em;
 }
 .card__summary .picture {
-  background-image: url('/images/illustration-thank-you.svg');
+  background-image: url('./images/illustration-thank-you.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
