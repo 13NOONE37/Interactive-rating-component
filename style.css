@@ -19,7 +19,7 @@
   box-sizing: border-box;
   font-family: 'Kumbh Sans', sans-serif;
 }
-body {
+.content {
   font-size: 15px;
   background-color: var(--very-dark-blue);
   display: grid;
@@ -98,12 +98,13 @@ body {
   font-weight: 700;
   font-size: 1.2em;
 }
-.card__rating .rates input:checked {
-  background-color: var(--medium-grey);
-  color: var(--white);
-}
+
 .card__rating .rates input:hover {
   background-color: var(--orange);
+  color: var(--white);
+}
+.card__rating .rates input:checked {
+  background-color: var(--medium-grey);
   color: var(--white);
 }
 .card__rating button {
@@ -115,11 +116,11 @@ body {
   border-radius: 2em;
   padding: 1.2em;
 
-  font-weight: 700;
+  font-weight: 400;
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  font-size: 0.8em;
+  font-size: 1em;
   transition: all 0.3s ease;
 }
 .card__rating button:hover {
